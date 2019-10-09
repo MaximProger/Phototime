@@ -1,0 +1,29 @@
+// main: ../style.less
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 832px;
+    width: 100%;
+}
+
+.nav__link {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+
+    transition: transform .2s linear;
+
+    &--logo {
+        font-size: 64px;
+    }
+
+    &:hover {
+        transform: translateY(-3px);
+    }
+}
