@@ -1,0 +1,48 @@
+// main: ../style.less
+
+.footer {
+    padding: 40px 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__nav {
+    display: flex;
+}
+
+.footer__link {
+    display: inline-block;
+    border-right: 3px solid @sea;
+    padding-right: 9px;
+    margin-right: 9px;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: @black;
+    margin-bottom: 25px;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:last-child {
+        border-right: none;
+
+    }
+}
+
+.footer__copyright {
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.footer__icon {
+    color: @sea;
+    font-size: 56px;
+}
